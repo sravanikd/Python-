@@ -33,5 +33,4 @@ my_taxes = my_income*tax_rate
 
 -Show my taxes!
 my_taxes
-Out[46]:
 10.0
