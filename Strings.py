@@ -16,11 +16,11 @@ For example, Python understands the string "hello' to be a sequence of letters i
       s="Hello world"
       print (s)..it prints "hello world"
 
-#Index: 
+*Index: 
         s[0]= H
         s[1]= e
 
-#Slicing:
+*Slicing:
   Grabbing everything upto the designated point and syntax is :
   s[1:] -> for s object, grab everything from the index 1 and : means onwards.. it gives ello world
   s[:3] -> grab everything upto the index 3,but not the index 3 letter.
@@ -30,8 +30,12 @@ For example, Python understands the string "hello' to be a sequence of letters i
   s[::2]->Grab every other letter 
   s[:] -> grab everything
   ##s[::-1]-> to print the string backwards... grab from the beginning of everything to the end off everything but the step size is backwards.. so the string will be reversed.
-  
-  #Properties:
+  Ex: s="hello world"
+            
+            s[:2] -> 'he'  s[2:] -> 'llo'
+            
+            
+  *Properties:
   ##Immutability: Elements in it cant be changed or replaced.
   we declared s="Hello world" so we cant change s[0]=z..it gives error..
   ##we can concatinate..it means add to the string.. ex: s + "concatinating this"
