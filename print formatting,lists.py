@@ -57,4 +57,13 @@ my_list*2 ['one',
  ###pop off certain element with its index;
  x=l.pop(0), x has 1, l has 2,3 now
  
+ ##sort and reverse methods
  
+ new_list = ['a','e','x','b','c']
+ 
+ # Use reverse to reverse order (this is permanent!)
+new_list.reverse()
+['c', 'b', 'x', 'e', 'a']
+
+# Use sort to sort the list (in this case alphabetical order, but for numbers it will go ascending)
+new_list.sort()
